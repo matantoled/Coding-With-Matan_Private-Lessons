@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buttons</title>
+</head>
+<body>
+    
+    <a href="https://www.google.com/" title="google page">
+        <button style="font-size: 25px; background-color: gray; color:aqua; border-radius: 25px;">click me</button>
+    </a>
+    <br><br>
+
+
+    <button onclick="changeGreeting()" style="font-size: 25px; background-color: gray; color:aqua; border-radius: 25px;">click me</button>
+    <p id="greeting">Hello!</p>
+
+    <script>
+        function changeGreeting(){
+            if (document.getElementById("greeting").innerHTML == "Hello!"){
+                document.getElementById("greeting").innerHTML = "Goodbye!";
+            }
+            else{
+                document.getElementById("greeting").innerHTML = "Hello!";
+            }
+        }
+    </script>
+
+
+</body>
+</html>
