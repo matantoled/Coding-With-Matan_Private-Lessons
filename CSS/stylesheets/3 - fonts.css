@@ -1,0 +1,39 @@
+/* 
+    Load the OpenSans font from the specified URL (path)
+    and give the font a name 
+*/
+@font-face{
+    src: url(/sources/OpenSans-VariableFont_wdth\,wght.ttf);
+    font-family: OpenSans;
+}
+
+
+h1{
+    font-family: verdana, arial;
+}
+p{
+    font-family: "lucida console", "courier new";
+    font-size: 15px;
+    color: orange;
+    
+}
+#p1{
+    font-size: 1.5em;
+    color: tomato;
+}
+#p2{
+    font-weight: bold;
+    color: rgb(102, 222, 255)
+}
+#p3{
+    font-style: italic;
+    color: #59ff5f;
+}
+#p4{
+    font-family: Roboto;
+    color: hsl(283, 100%, 64%);
+}
+#p5{
+    font-family: OpenSans;
+    color: hsl(67, 90%, 46%);
+}
