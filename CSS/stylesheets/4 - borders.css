@@ -1,0 +1,26 @@
+h1{
+    border-style: solid;
+    border-color: rgb(10, 236, 33);
+    border-radius: 10px;
+}
+#p1{
+    border-style: solid;
+    border-width: 4px;
+    border-color: blue;
+    border-radius: 15px;
+}
+#p2{
+    border-style: dashed;
+}
+#p3{
+    border-bottom: 3px solid tomato;
+}
+#p4{
+    border-top: 2px dotted rgb(4, 222, 22);
+}
+#p5{
+    border-top: 2px inset green;
+    border-bottom: 3px ridge tomato;
+    border-left: 5px dotted rgb(59, 4, 222);
+    border-right: 5px inset rgb(210, 241, 11);
+}
