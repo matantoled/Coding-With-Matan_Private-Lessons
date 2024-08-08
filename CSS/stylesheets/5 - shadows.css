@@ -1,0 +1,20 @@
+h1{
+    text-shadow: 3px 3px 5px red, -3px -3px 5px cyan;
+}
+/*
+text-shadow: (a horizontal offset | vertical offset | blur | color).
+for example: 1px, 1px => right by 1 and down by 1.
+           -1px, -1px => left by 1 and up by 1.
+you can also add more than one shadow effect, each shadow is comma separeted (like in the code above).
+*/
+
+#box1{
+    width: 500px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: lightgray;
+    box-shadow: 3px 3px 5px;
+}
+/*
+box-shadow: same like text-shadow
+*/
