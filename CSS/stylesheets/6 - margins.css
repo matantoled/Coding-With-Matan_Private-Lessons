@@ -1,0 +1,42 @@
+/*
+There are several main types of margins:
+margin, margin-top, margin-bottom, margin-left, margin-right.
+there is also a definition of margin-something: auto
+
+margin: 50px => will cause the element to move 50px in each direction, i.e. top, bottom, left and right.
+margin-left: auto => will move the element to the left as much as possible.
+margin: auto => will move the element to be in the center.
+*/
+
+body{
+    margin: 0px;
+}
+
+#p1{
+    margin: 10px;
+}
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+}
+#box1{
+    background-color: red;
+    margin: 50px;
+}
+#box2{
+    background-color: blue;
+    margin-top: 150px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+#box3{
+    background-color: gray;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+#box4{
+    background-color: purple;
+    margin: auto;
+}
