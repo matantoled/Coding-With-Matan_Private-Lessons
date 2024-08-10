@@ -1,0 +1,11 @@
+div{
+    border: 2px solid;
+    height: 75px;
+/*  overflow: visible;           => no change 
+    overflow: hidden;            => any content that will overflow outside of our box will be hidden 
+    overflow: clip;              => like hidden
+    overflow-clip-margin: 13px;  => the content will overflow by 13px, and the rest is hidden
+    overflow: scroll;            => our box conains a scroll bar, both vertical and horizontal, 
+                                    and we can use the scroll bar to see the entire content */
+    overflow: auto;           /* => our box conains a scroll bar if needed */
+}
