@@ -1,0 +1,19 @@
+#container{
+    border: 2px solid;
+}
+
+#container p{    /* descendant */
+    background-color: yellow;
+}
+
+#container > p{    /* child */
+    background-color: rgb(61, 153, 223);
+}
+
+#container ~ p{    /* general sibling */
+    background-color: rgb(64, 227, 72);
+}
+
+#container + span{    /* general sibling */
+    background-color: rgb(227, 64, 129);
+}

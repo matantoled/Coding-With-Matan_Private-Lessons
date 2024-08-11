@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinators</title>
+    <link rel="stylesheet" href="/CSS/stylesheets/13 - combinators.css">
+</head>
+<body>
+    
+    <!--
+        combinators = explains the relationship between listed selectors.
+
+                                  = descendant
+                                > = child
+                                + = adjacent sibling
+                                ~ = general sibling
+
+        all children are descendants but not all descendants are children.
+    -->
+
+    <div id="container">
+        <p>this is #1</p>
+        <p>this is #2</p>
+        <div>
+            <p>this is #3</p>
+        </div>
+    </div>
+
+    <span>this is #4</span>
+
+    <p>this is #5</p>
+    <p>this is #6</p>
+    
+</body>
+</html>
