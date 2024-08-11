@@ -1,0 +1,26 @@
+.box1{
+    border: 2px solid;
+    padding: 25px;
+    box-sizing: border-box;
+    height: auto;
+    width: 50%;
+    float: left;
+}
+
+.container{
+    box-sizing: border-box;
+    background-color: grey;
+    height: 100vh;
+}
+.box2{
+    background-color: rgb(227, 62, 62);
+    border: 2px solid;
+    padding: 25px;
+    box-sizing: border-box;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+
+    min-height: 25%;
+}
