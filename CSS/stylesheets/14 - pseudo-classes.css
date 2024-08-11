@@ -1,0 +1,41 @@
+a:link{ /* Change the color of the link */
+    color: rgb(77, 77, 207)
+}
+a:hover{ /* Changes the behavior when the mouse is placed on the link */
+    color: rgb(217, 63, 63);
+    font-size: 1.1em;
+}
+a:active{ /*Changes the behavior when the mouse is clicked */
+    font-size: 1.1em;
+    color: rgb(194, 218, 42);
+}
+a:visited{ /*Changes the color of the link after it is clicked */
+    color: rgb(53, 227, 85);
+}
+
+#list1 li:hover{ /* When we move the mouse over one of the list, its background color will change (for example) */
+    background-color: yellow;
+}
+#list1 li:not(hover){ /* Anything the mouse is *not* currently hovering over */
+    background-color: gray;
+}
+
+#list2 li:nth-child(even){ /* Targets every even-numbered <li> element within the <ul> with id="list2" */
+    background-color: rgb(237, 90, 237);
+}
+
+
+/* 
+   When we place the mouse on this div, then the p will be displayed. 
+   That is, at a given moment it is in display: none state, 
+   but when we put the mouse on the div, 
+   then it will switch to display: block state and then it will appear 
+*/
+#greeting p{
+    background-color: lightblue;
+    padding-left: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
+}
