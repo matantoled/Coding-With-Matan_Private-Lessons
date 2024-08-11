@@ -1,0 +1,60 @@
+#div1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: block; /* does nothing*/
+}
+#span1{
+    background-color: blue;
+    width: 100px;   /* does nothing */
+    height: 100px;  /* does nothing */
+    display: block; /* now we can apply width and height*/
+}
+
+#div2{
+    background-color: green;
+    width: 100px;    /* does nothing */
+    height: 100px;   /* does nothing */
+    display: inline; /* makes the element be inline with the surrounding content */
+}
+#span2{
+    background-color: purple;
+    display: inline; /* does nothing */
+}
+
+#div3{
+    background-color: green;
+    width: 100px;    /* does nothing */
+    height: 100px;   /* does nothing */
+    display: inline;
+}
+#span3{
+    background-color: purple;
+    display: block; /* makes the element start on a new line and take up the entire width */
+}
+
+#div4{
+    background-color: green;
+    width: 100px; 
+    height: 100px;  
+    display: inline-block; /* like inline but now we can also apply a width and a height */
+}
+#span4{
+    background-color: purple;
+    width: 100px; 
+    height: 100px; 
+    display: inline-block;
+}
+
+#div5{
+    background-color: green;
+    width: 100px; 
+    height: 100px;  
+    display: none; /* not display that element as if it's gone */
+}
+#span5{
+    background-color: purple;
+    width: 100px; 
+    height: 100px; 
+    display: none;
+}
