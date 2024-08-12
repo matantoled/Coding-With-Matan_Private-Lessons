@@ -1,0 +1,37 @@
+h1::first-letter{
+    font-size: 2em; /* 200% */
+    font-style: italic;
+}
+
+/* if we change the size of the window, the "size" of the line will also change. 
+   i.e, depending on the size of the window, 
+   so will the amount of text that will be highlighted */
+p::first-line{ 
+    background-color: #f3f366;
+}
+p::selection{ /*Highlight the text we select */
+    color: greenyellow;
+    background-color: darkgray;
+}
+
+#fruits li::before{  /* Adds a checkmark before each list item */
+    content: "✔";  /* to pick an emoji, press win+; */
+    color: greenyellow;
+    font-size: 1.2em;
+}
+#apple::after{
+    content: "🍎";
+}
+#orange::after{
+    content: "🍊";
+}
+#banana::after{
+    content: "🍌";
+}
+
+
+#fruits2 li::marker{
+    content: "✔";
+    color: greenyellow;
+    font-size: 1.2em;
+}
