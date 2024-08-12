@@ -1,0 +1,20 @@
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color: black;
+    text-decoration: none;  /* remove the bottom line from the link */
+    padding: 8px 15px;      /* separate the links */
+    display: inline-block;  
+    border-radius: 20px; /* makes the edges to be rounder */
+
+}
+.pagination a.active{
+    background-color: greenyellow; /* color the active one (in this case the choice 1) */
+    font-weight: bold; /* makes the active choice to be bold */
+}
+/*  select the pagination class. with any "a" elements, we will use the hover pseudo-class.
+    if there are elements that are hovered over *but they are not active*, then we want to highlight them. */
+.pagination a:hover:not(.active){
+    background-color: rgb(207, 199, 199);
+}
