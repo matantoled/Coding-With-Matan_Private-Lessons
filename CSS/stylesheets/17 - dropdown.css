@@ -1,0 +1,37 @@
+body{
+    margin-left: 18px;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown button{
+    background-color: rgb(211, 107, 107); /* color of the button */
+    color: white; /* color of the text in the button */
+    padding: 15px 15px; /* height and width of the button */
+    border-style: none; /* makes the border disappear */
+    border-radius: 10%; /* makes the edges be rounder */
+    cursor: pointer; /* changes the mouse pointer to a hand icon when hovering, indicating the element is clickable */
+}
+.dropdown a{
+    display: block; /* makes each link fill the dropdown width */
+    color: black;
+    text-decoration: none; /* remove the down-line from the links */
+    padding: 10px 15px; 
+
+}
+.dropdown .content{
+    display: none;
+    background-color: lightgray; /* background color of the dropdown */
+    position: absolute; /* makes the background color to be only on the box around the dropdown */
+    min-width: 100px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: rgb(176, 68, 68);
+}
+.dropdown a:hover{
+    background-color: rgb(176, 68, 68);
+}
