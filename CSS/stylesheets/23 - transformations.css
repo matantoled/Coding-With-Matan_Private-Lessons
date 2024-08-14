@@ -88,4 +88,5 @@ body{
 
 img{
     transform: translateX(100%) rotateZ(180deg) scaleX(2);
+    height: 200px;
 }
