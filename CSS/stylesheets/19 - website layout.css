@@ -1,0 +1,60 @@
+*{ /* when we calculate the width, we *include the padding* */
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+header{
+    background-color: lightgray;
+    text-align: center;
+    padding: 25px;
+}
+
+.navbar{
+    background-color: rgb(44, 44, 44);
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+}
+.navbar a:hover{
+    background-color: rgb(23, 23, 23);
+    color: rgb(119, 110, 226);
+}
+
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+footer{
+    background-color: rgb(156, 142, 142);
+    text-align: center;
+    padding: 25px;
+    clear: both;
+}
+
+@media screen and (max-width:600px){ /* if the width of the screen is 600px or below, change the CSS properties */
+    aside, section, article{
+        width: 100%;
+    }
+}
