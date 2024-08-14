@@ -1,0 +1,255 @@
+body{
+    background-color: black;
+}
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: space-between; /* Distributes space between the boxes */
+}
+#box, #box2, #box3, #box4, #box5, #box6, #box7, #box8
+, #box9, #box10, #box11, #box12, #box13, #box14, #box15, #box16 {
+    margin-right: 10px; /* Optional: Adds space between boxes */
+}
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(220, 105, 105);
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 2.5s;
+    margin-bottom: 20px;
+}
+
+#box2{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(199, 220, 105);
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideRight;
+    animation-duration: 2.5s;
+    margin-bottom: 20px;
+}
+
+#box3{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(105, 220, 107);
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideUp;
+    animation-duration: 2.5s;
+    margin-bottom: 20px;
+}
+
+#box4{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(105, 166, 220);
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideDown;
+    animation-duration: 2.5s;
+    margin-bottom: 200px;
+}
+
+@keyframes slideLeft {
+    from{transform: translateX(300%);}
+}
+@keyframes slideRight {
+    to{transform: translateX(300%);}
+}
+@keyframes slideUp {
+    from{transform: translateY(300%);}
+}
+@keyframes slideDown {
+    to{transform: translateY(300%);}
+}
+
+#box5{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(132, 105, 220);
+    font-size: 13em;
+    text-align: center;
+    animation-name: rotateX;
+    animation-duration: 2.5s;
+    margin-bottom: 20px;
+}
+
+#box6{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(205, 105, 220);
+    font-size: 13em;
+    text-align: center;
+    animation-name: rotateY;
+    animation-duration: 2.5s;
+    margin-bottom: 20px;
+}
+
+#box7{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(220, 105, 159);
+    font-size: 13em;
+    text-align: center;
+    animation-name: rotateZ;
+    animation-duration: 2.5s;
+    margin-bottom: 20px;
+}
+
+#box8{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(65, 32, 32);
+    font-size: 13em;
+    text-align: center;
+    animation-name: rotateZ50P;
+    animation-duration: 2.5s;
+    margin-bottom: 200px;
+}
+
+@keyframes rotateX {
+    100%{transform: rotateX(360deg);}
+}
+@keyframes rotateY {
+    100%{transform: rotateY(360deg);}
+}
+@keyframes rotateZ {
+    100%{transform: rotateZ(360deg);}
+}
+@keyframes rotateZ50P {
+    50%{transform: rotateZ(360deg);}
+}
+
+
+#box9{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(220, 105, 105);
+    font-size: 13em;
+    text-align: center;
+    animation-name: grow;
+    animation-duration: 2.5s;
+    margin-bottom: 20px;
+}
+
+#box10{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(199, 220, 105);
+    font-size: 13em;
+    text-align: center;
+    animation-name: shrink;
+    animation-duration: 2.5s;
+    margin-bottom: 20px;
+}
+
+#box11{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(105, 220, 107);
+    font-size: 13em;
+    text-align: center;
+    animation-name: fade;
+    animation-duration: 2.5s;
+    margin-bottom: 20px;
+}
+
+#box12{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(105, 166, 220);
+    font-size: 13em;
+    text-align: center;
+    animation-name: colorChange;
+    animation-duration: 2.5s;
+    margin-bottom: 200px;
+}
+
+@keyframes grow {
+    50%{transform: scale(2, 2);}
+}
+@keyframes shrink {
+    50%{transform: scale(0.5, 0.5);}
+}
+@keyframes fade {
+    50%{opacity: 0;}
+}
+@keyframes colorChange {
+    0%{background-color: rgb(105, 166, 220);}
+    20%{background-color: rgb(205, 105, 220);}
+    40%{background-color: rgb(220, 105, 105);}
+    60%{background-color: rgb(105, 220, 109);}
+    80%{background-color: rgb(203, 220, 105);}
+    100%{background-color: rgb(231, 125, 59);}
+}
+
+
+#box13{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(105, 176, 220);
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-bottom: 200px;
+}
+
+#box14{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(209, 220, 105);
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#box14:active{
+    animation-name: glow;
+    animation-duration: 2.5s;
+}
+
+#box15{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(118, 220, 105);
+    font-size: 13em;
+    text-align: center;
+    animation-name: fade;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    margin-bottom: 20px;
+}
+
+#box16{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(220, 130, 105);
+    font-size: 5em;
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+#box16:hover{
+    animation-name: glow;
+    animation-duration: 2.5s;
+}
+
+@keyframes glow {
+    50%{box-shadow: 0px 0px 50px rgb(255, 255, 255);}
+}
+
+img{
+    height: 200px;
+    text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-bottom: 200px;
+}
