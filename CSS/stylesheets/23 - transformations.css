@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+}
+#box1{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 7em;
+    text-align: center;
+    background-color: rgb(83, 228, 97);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+
+    /* transform: translateX(250px); Moves the element on the X axis according to the amount in the parentheses. Similarly with the Y axis */
+    
+    /* If we want to move the element on both the X axis and the Y axis, then we write like this: */
+    transform: translate(250px, 50px);
+}
+
+#box2{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 7em;
+    text-align: center;
+    background-color: rgb(83, 189, 228);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+
+    /* transform: rotateX(180deg); */
+    transform: rotateZ(45deg);
+
+}
+
+#box3{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 7em;
+    text-align: center;
+    background-color: rgb(211, 228, 83);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+    
+    transform: scaleX(2.1);
+}
+
+#box4{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 7em;
+    text-align: center;
+    background-color: rgb(228, 119, 83);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+
+    transform: skewX(45deg);
+}
+
+#box5{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 7em;
+    text-align: center;
+    background-color: rgb(224, 32, 208);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+
+    transform: translateX(100%) rotateZ(90deg) scale(0.5);
+}
+
+img{
+    transform: translateX(100%) rotateZ(180deg) scaleX(2);
+}
