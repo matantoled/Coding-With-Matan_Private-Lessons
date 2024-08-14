@@ -1,0 +1,77 @@
+.container1{
+    display: flex;
+    border: 10px solid black;
+
+    /* flex-direction: row-reverse  => sets the flexible items in a container to be displayed in a row, with the order reversed, so that the last item appears first */
+    justify-content: space-between; /* aligns the flexible items to the end of the container along the main axis */
+}
+
+.container2{
+    display: flex;
+    border: 10px solid black;
+
+    flex-direction: row-reverse;
+    justify-content: space-around; 
+}
+
+.container3{
+    display: flex;
+    border: 10px solid black;
+    
+    justify-content: space-evenly; 
+}
+
+.container4{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+    /* align-items: flex-start;  the default */
+    /* align-items: flex-end;  place the elements at the bottom of the container */
+    /* align-items: baseline;  the *text* is going to be aligned */
+    /* flex-wrap: nowrap; default */
+    flex-wrap: wrap; /* the elements will now wrap if there is not enough space */
+    align-content: flex-end; /*   this is used along with flex-wrap. now, the space between the first row and the second is gone. 
+                                    we can also write: start, end, center, space-evenly, space-between and so on */
+    row-gap: 25px; /* makes spaces in the row */
+    column-gap: 15px; /* makes spaces in the col */
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 20%;
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: yellow;
+}
+#box3{
+    background-color: green;
+}
+#box4{
+    background-color: blue;
+}
+
+
+.container5{
+    display: flex;
+    border: 10px solid black;
+    height: 50vh;
+}
+#box5{
+    background-color: rgb(207, 17, 220);
+    align-self: center; /* will be in the center of the container */
+}
+#box6{
+    background-color: rgb(17, 203, 220);
+    align-self: end; 
+}
+#box7{
+    background-color: rgb(232, 141, 14);
+    align-self: start; 
+    order: -1; /*makes the box to be first in the order */
+}
