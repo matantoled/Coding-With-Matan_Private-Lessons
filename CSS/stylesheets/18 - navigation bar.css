@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+}
+main{
+    margin: 20px;
+}
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none; /* removes the dot from the list */
+    background-color: rgb(63, 61, 61);
+    padding: 0px; /* moves the list to the left */
+    margin: 0px; 
+}
+.navbar a{
+    color: white;
+    text-decoration: none; /* removes the under-line */
+    padding: 15px; /* moves the links a little bit to the right */
+    display: block; /* makes each links to be a block, so there is going to be a space between the links */
+    text-align: center; 
+}
+.navbar a:hover{
+    background-color: rgb(33, 32, 32);
+}
+/* for a horizontal navigation we need to do the following */
+.navbar li{
+    float: left;
+}
+.navbar ul{
+    overflow: hidden;
+}
