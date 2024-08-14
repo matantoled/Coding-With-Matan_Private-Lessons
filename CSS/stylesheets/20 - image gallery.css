@@ -1,0 +1,21 @@
+.gallery{
+    display: inline-block; /* currently the images are block-level elements. now they are all lined up */
+    border: 10px solid rgb(56, 56, 56);
+    margin: 5px;
+    width: 200px;
+}
+.gallery .description{
+    padding: 10px;
+    text-align: center;
+}
+.gallery a{
+    text-decoration: none;
+    color: rgb(220, 143, 26);
+}
+.gallery:hover{
+    border-color: rgb(170, 166, 166);
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
