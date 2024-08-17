@@ -1,6 +1,6 @@
 # Coding With Matan - Private Lessons
 
-This repository contains materials and resources used in the **Coding With Matan** private coding lessons. The lessons focus on foundational web development concepts, specifically HTML and CSS.
+This repository contains materials and resources used in the **Coding With Matan** private coding lessons. The lessons focus on foundational web development concepts, specifically HTML, CSS and SQL.
 
 ## Table of Contents
 
