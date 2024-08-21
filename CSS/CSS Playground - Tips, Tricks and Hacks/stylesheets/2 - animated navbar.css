@@ -22,3 +22,13 @@ a{
     padding: 0.5rem 1rem;
     transition: color 0.25s;
 }
+a::after{
+    position: absolute;
+    content: "";
+    inset: 0;
+    background: white;
+    scale: 1 0;
+    z-index: -1;
+    transition: 0.45s;
+    border-radius: 10px;
+}
