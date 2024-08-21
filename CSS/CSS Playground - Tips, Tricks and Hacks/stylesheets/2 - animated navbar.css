@@ -32,3 +32,9 @@ a::after{
     transition: 0.45s;
     border-radius: 10px;
 }
+a:hover{
+    color: black;
+}
+a:hover::after{
+    scale: 1 1;
+}
