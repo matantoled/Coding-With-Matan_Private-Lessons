@@ -75,4 +75,3 @@ Contributions are welcome! If you have ideas for new lessons or improvements, pl
 For any questions or suggestions, feel free to reach out:
 
 - **Email**: [matantoled@gmail.com](mailto:matantoled@gmail.com)
-- **GitHub**: [matantoled](https://github.com/matantoled)
