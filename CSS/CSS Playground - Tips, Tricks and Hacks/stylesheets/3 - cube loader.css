@@ -40,4 +40,11 @@ body{
     transform-origin: right bottom;
     top: 2.5vmin;
     left: 4vmin;
+    transition: all 1s ease 0s;
+    animation-name: spin-cube-before;
+}
+.cube:after{
+    top: 4vmin;
+    transform: rotateX(90deg);
+    animation-name: spin-cube-after;
 }
