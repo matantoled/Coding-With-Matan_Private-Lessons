@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    perspective: 800px;
+    background-color: black;
+}
+.cube{
+    width: 200px;
+    height: 200px;
+    
+}
