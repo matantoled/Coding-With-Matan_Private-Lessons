@@ -10,5 +10,7 @@ body{
 .cube{
     width: 200px;
     height: 200px;
-    
+    transform: rotateX(45deg) rotateY(45deg);
+    animation: rotate 5s infinite linear;
+    transform-style: preserve-3d;
 }
