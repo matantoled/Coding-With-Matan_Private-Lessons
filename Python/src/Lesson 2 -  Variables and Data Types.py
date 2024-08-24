@@ -24,3 +24,17 @@ counter = 0
 counter = counter + 1
 print("Counter is now:", counter)
 
+
+
+# Questions Section:
+# 1. What will the output be when the code in Example 1 is executed?
+# 2. What data type is the variable 'age' in Example 2?
+# 3. What is the value of 'area' in Example 3 and why?
+# 4. What will be the value of 'counter' after the code in Example 4 is executed?
+
+# Answers Section:
+# 1. The output will be:
+#    Hello, Alice!
+# 2. The data type of the variable 'age' is an integer (int).
+# 3. The value of 'area' will be 15 because it is the product of 'length' (5) and 'width' (3).
+# 4. The value of 'counter' will be 1 after the code is executed.
