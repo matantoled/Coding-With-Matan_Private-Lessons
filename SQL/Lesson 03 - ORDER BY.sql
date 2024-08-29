@@ -3,7 +3,6 @@
 ==============================================================
 */
 
-
 -- 1. Select all customer records and sort them by first name in ascending order.
 SELECT * FROM customer
 ORDER BY first_name;
