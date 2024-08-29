@@ -1,5 +1,5 @@
 /*
-		   Lesson 8 -  Challenges
+	Lesson 8 -  Challenge 1
 ======================================
 */
 
