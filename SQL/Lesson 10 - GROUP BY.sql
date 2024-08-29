@@ -3,7 +3,6 @@
 ================================================================
 */
 
-
 -- 1. Select all records from the payment table.
 SELECT * FROM payment;
 
