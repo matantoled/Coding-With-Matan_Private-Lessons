@@ -1,5 +1,5 @@
 /* 
-    Lesson 11 - Filtering Grouped Data with the HAVING Clause
+    Lesson 12 - Filtering Grouped Data with the HAVING Clause
 =================================================================
 */
 
