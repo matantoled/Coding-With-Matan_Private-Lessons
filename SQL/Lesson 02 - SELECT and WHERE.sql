@@ -3,7 +3,6 @@
 ====================================================================
 */
 
-
 -- 1. Select all customer records where the first name is 'Jared'.
 SELECT * FROM customer
 WHERE first_name = 'Jared';
