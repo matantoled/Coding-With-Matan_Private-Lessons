@@ -1,6 +1,6 @@
 # Coding With Matan - Private Lessons
 
-This repository contains materials and resources used in the **Coding With Matan** private coding lessons. The lessons focus on foundational web development concepts, specifically HTML, CSS and SQL.
+This repository contains materials and resources used in the **Coding With Matan** private coding lessons. The lessons focus on foundational web development concepts, specifically HTML, CSS, and SQL.
 
 ## Table of Contents
 
@@ -59,6 +59,14 @@ You can explore the different folders to find relevant HTML and CSS files:
 
 These resources are meant to be interactive, so feel free to modify the code and experiment with different layouts and styles.
 
+## SQL Lessons
+
+The SQL lessons in this repository are inspired by and based on the teachings from the following source:
+
+- **The Complete SQL Bootcamp** by Udemy [The Complete SQL Bootcamp](https://www.udemy.com/course/the-complete-sql-bootcamp/?couponCode=SKILLS4SALEB)
+
+This course provided the foundational knowledge and exercises used in the SQL section of the lessons.
+
 ## Contributing
 
 Contributions are welcome! If you have ideas for new lessons or improvements, please follow these steps:
@@ -68,7 +76,6 @@ Contributions are welcome! If you have ideas for new lessons or improvements, pl
 3. Make your changes and commit them (`git commit -m 'Add new feature'`).
 4. Push to your branch (`git push origin feature-branch`).
 5. Create a pull request to merge your changes into the main branch.
-
 
 ## Contact
 
