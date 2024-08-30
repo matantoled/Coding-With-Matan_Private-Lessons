@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #4e4e4e;
+}
+h2,p{
+    margin: 60px;
+}
+.toggle-menu{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    z-index: 99;
+    color: #000;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+.menu{
+    position: fixed;
+    inset: 0;
+    background-color: #9bf5d9;
+    padding: 60px 60px;
+    clip-path: circle(8% at right top);
+    transition: all 500ms;
+}
+.menu.visible{
+    clip-path: circle(100%);
+}
+.menu li{
+    list-style: none;
+}
+.menu a{
+    display: block;
+    text-align: center;
+    width: max-content;
+    color: #000;
+    text-decoration: none;
+    visibility: hidden;
+    opacity: 0;
+    padding: 7px 0;
+    font-size: 18px;
+    transition: all 500ms;
+}
+.menu.visible a{
+    visibility: visible;
+    opacity: 1;
+}
+.menu.visible a{
+    background-color: #9bf5d9;
+}

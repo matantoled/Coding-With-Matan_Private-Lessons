@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>animated toggle menu</title>
+    <link rel="stylesheet" href="/CSS/CSS Playground - Tips, Tricks and Hacks/stylesheets/5 - animated toggle menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <button class="toggle-menu">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <ul class="menu">
+        <li><a href="">Home</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Services</a></li>
+    </ul>
+
+    <h2>Learn how to do animated toggle menu</h2>
+
+    <pre>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Quaerat minima eligendi sint ad deleniti rerum quae,
+        odio aperiam accusantium sit debitis ratione facilis tempore
+        delectus praesentium autem nihil tenetur quos!
+    </pre>
+
+    
+
+    <script>
+        const menu = document.querySelector(".menu");
+        const toggleBtn = document.querySelector(".toggle-menu");
+
+        toggleBtn.addEventListener("click", () => {
+            menu.classList.toggle('visible');
+        })
+    </script>
+</body>
+</html>
