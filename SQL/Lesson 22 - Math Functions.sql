@@ -1,7 +1,8 @@
 /*
-        Lesson 22 - Calculations and Percentage in SQL
+        Lesson 22 - Mathematical Functions and Operators
 ==============================================================
 */
+
 
 -- 1. Select all records from the film table.
 SELECT * FROM film;
