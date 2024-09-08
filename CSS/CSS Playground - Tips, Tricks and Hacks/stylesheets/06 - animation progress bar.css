@@ -22,7 +22,7 @@ body {
     background-color: #bd47ef;
     border-radius: 30px;
     box-shadow: 0 0 10px 4px rgba(189, 71, 239, 0.6);
-    animation: progressAnimation 7s ease-out infinite;
+    animation: progressAnimation 7s ease-out;
 }
 
 @keyframes progressAnimation {
