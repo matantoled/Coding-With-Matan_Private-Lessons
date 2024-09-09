@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+#bulb {
+    width: 200px;
+    height: auto;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#on {
+    background-color: green;
+    color: white;
+}
+
+#off {
+    background-color: red;
+    color: white;
+}
+
+button:active {
+    transform: scale(0.9);
+}
